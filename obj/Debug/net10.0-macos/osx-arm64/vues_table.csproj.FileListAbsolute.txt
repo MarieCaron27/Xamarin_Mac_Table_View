@@ -220,3 +220,4 @@
 /Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/vues_table.pdb
 /Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/vues_table.genruntimeconfig.cache
 /Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/ref/vues_table.dll
+/Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/vues_table.sourcelink.json
