@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/marie/RiderProjects/vues_table/vues_table/bin/Debug/net10.0-macos/osx-arm64/vues_table.app/Contents/MonoBundle/libmscordaccore.dylib
