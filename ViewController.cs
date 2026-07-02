@@ -13,8 +13,16 @@ public partial class ViewController : NSViewController
     public override void ViewDidLoad()
     {
         base.ViewDidLoad();
+        
+        // Create the Product Table Data Source and populate it
+        var DataSource = new ProductTableDataSource ();
+        DataSource.Products.Add (new Product ("Xamarin.iOS", "Allows you to develop native iOS Applications in C#"));
+        DataSource.Products.Add (new Product ("Xamarin.Android", "Allows you to develop native Android Applications in C#"));
+        DataSource.Products.Add (new Product ("Xamarin.Mac", "Allows you to develop Mac native Applications in C#"));
 
-        // Do any additional setup after loading the view.
+        // Populate the Product Table
+        ProductTable.DataSource = DataSource;
+        ProductTable.Delegate = new ProductTableDelegate (this, DataSource);
     }
 
     public override NSObject RepresentedObject
@@ -28,7 +36,12 @@ public partial class ViewController : NSViewController
         }
     }
     
-    public override void AwakeFromNib ()
+    public void ReloadTable ()
+    {
+        ProductTable.ReloadData ();
+    }
+    
+    /*public override void AwakeFromNib ()
     {
         base.AwakeFromNib ();
 
@@ -41,5 +54,5 @@ public partial class ViewController : NSViewController
         // Populate the Product Table
         ProductTable.DataSource = DataSource;
         ProductTable.Delegate = new ProductTableDelegate (DataSource);
-    }
+    }*/
 }

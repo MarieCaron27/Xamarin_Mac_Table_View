@@ -14,6 +14,9 @@ namespace vues_table
 	partial class ViewController
 	{
 		[Outlet]
+		AppKit.NSTableColumn ActionColumn { get; set; }
+
+		[Outlet]
 		AppKit.NSTableColumn DetailsColumn { get; set; }
 
 		[Outlet]
@@ -37,6 +40,11 @@ namespace vues_table
 			if (ProductTable != null) {
 				ProductTable.Dispose ();
 				ProductTable = null;
+			}
+
+			if (ActionColumn != null) {
+				ActionColumn.Dispose ();
+				ActionColumn = null;
 			}
 
 		}

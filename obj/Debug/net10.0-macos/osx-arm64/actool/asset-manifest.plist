@@ -11,5 +11,66 @@
 			<string>/Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/actool/partial-info.plist</string>
 		</array>
 	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./test.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "test" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./test.imageset/[car][][][2x][][][][][][][][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][3x][][][][][][][][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][3x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][3x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][][][][][][][][][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[car][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "test" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./test.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./test.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marie/RiderProjects/vues_table/vues_table/obj/Debug/net10.0-macos/osx-arm64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "test" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>

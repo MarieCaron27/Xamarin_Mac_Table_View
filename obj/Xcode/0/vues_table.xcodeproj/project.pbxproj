@@ -7,80 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A91600000000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1C70000000000000000000 /* Cocoa.framework */; };
-		358007000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1804600000000000000000 /* Foundation.framework */; };
-		ED827E000000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59966E000000000000000000 /* Assets.xcassets */; };
-		32649E000000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5898E6000000000000000000 /* Entitlements.plist */; };
-		31D601700000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 860D60000000000000000000 /* Info.plist */; };
-		4B678B000000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6A3E700000000000000000 /* Main.storyboard */; };
-		3DBC32300000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9DC4000000000000000000 /* AppDelegate.m */; };
-		88BE48000000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB08A000000000000000000 /* ViewController.m */; };
+		38A81FA00000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE91CB00000000000000000 /* Cocoa.framework */; };
+		2D3202B00000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C218A00000000000000000 /* Foundation.framework */; };
+		CD2DE2000000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3369CF200000000000000000 /* Assets.xcassets */; };
+		EB8484000000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47A8AA000000000000000000 /* Entitlements.plist */; };
+		284EDFB00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AC5DDA00000000000000000 /* Info.plist */; };
+		F4CAF0000000000000000000 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B22B000000000000000000 /* trash.png */; };
+		D74387000000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3915FC400000000000000000 /* Main.storyboard */; };
+		1C5DEC000000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D4E000000000000000000 /* AppDelegate.m */; };
+		F9B7C5000000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C775F1000000000000000000 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34434E100000000000000000 /* vues_table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "vues_table.app"; path = "vues_table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F1C70000000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
-		1E1804600000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
-		59966E000000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
-		5898E6000000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
-		860D60000000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
-		2A6A3E700000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
-		165DBED00000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
-		2B9DC4000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
-		94BB57000000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
-		CEB08A000000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		303257B00000000000000000 /* vues_table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "vues_table.app"; path = "vues_table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE91CB00000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		16C218A00000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3369CF200000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		47A8AA000000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2AC5DDA00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		89B22B000000000000000000 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trash.png"; path = "trash.png"; sourceTree = "<group>"; };
+		3915FC400000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		31C515400000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		FF4D4E000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		3FEDBF500000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		C775F1000000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13A961000000000000000000 /* Frameworks */ = {
+		3F5BB9F00000000000000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91600000000000000000000 /* Cocoa.framework in Frameworks */,
-				358007000000000000000000 /* Foundation.framework in Frameworks */,
+				38A81FA00000000000000000 /* Cocoa.framework in Frameworks */,
+				2D3202B00000000000000000 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30F469100000000000000000 = {
+		3A3989B00000000000000000 = {
 			isa = PBXGroup;
 			children = (
-				3897B1B00000000000000000 /* vues_table */,
-				3D553F700000000000000000 /* Frameworks */,
-				27FF3B700000000000000000 /* Products */,
+				C05D7B000000000000000000 /* vues_table */,
+				2C3495700000000000000000 /* Frameworks */,
+				DD940F000000000000000000 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		27FF3B700000000000000000 /* Products */ = {
+		DD940F000000000000000000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34434E100000000000000000 /* vues_table.app */,
+				303257B00000000000000000 /* vues_table.app */,
 			);
 			name = "Products";
 			sourceTree = "<group>";
 		};
-		3D553F700000000000000000 /* Frameworks */ = {
+		2C3495700000000000000000 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F1C70000000000000000000 /* Cocoa.framework */,
-				1E1804600000000000000000 /* Foundation.framework */,
+				3DE91CB00000000000000000 /* Cocoa.framework */,
+				16C218A00000000000000000 /* Foundation.framework */,
 			);
 			name = "Frameworks";
 			sourceTree = "<group>";
 		};
-		3897B1B00000000000000000 /* vues_table */ = {
+		C05D7B000000000000000000 /* vues_table */ = {
 			isa = PBXGroup;
 			children = (
-				165DBED00000000000000000 /* AppDelegate.h */,
-				2B9DC4000000000000000000 /* AppDelegate.m */,
-				59966E000000000000000000 /* Assets.xcassets */,
-				5898E6000000000000000000 /* Entitlements.plist */,
-				860D60000000000000000000 /* Info.plist */,
-				2A6A3E700000000000000000 /* Main.storyboard */,
-				94BB57000000000000000000 /* ViewController.h */,
-				CEB08A000000000000000000 /* ViewController.m */,
+				31C515400000000000000000 /* AppDelegate.h */,
+				FF4D4E000000000000000000 /* AppDelegate.m */,
+				3369CF200000000000000000 /* Assets.xcassets */,
+				47A8AA000000000000000000 /* Entitlements.plist */,
+				2AC5DDA00000000000000000 /* Info.plist */,
+				3915FC400000000000000000 /* Main.storyboard */,
+				89B22B000000000000000000 /* trash.png */,
+				3FEDBF500000000000000000 /* ViewController.h */,
+				C775F1000000000000000000 /* ViewController.m */,
 			);
 			name = "vues_table";
 			sourceTree = "<group>";
@@ -88,13 +91,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27F917300000000000000000 /* vues_table */ = {
+		3CA348E00000000000000000 /* vues_table */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27C1D0B00000000000000000 /* Build configuration list for PBXNativeTarget "vues_table" */;
+			buildConfigurationList = 21BD90400000000000000000 /* Build configuration list for PBXNativeTarget "vues_table" */;
 			buildPhases = (
-				25D056A00000000000000000 /* Sources */,
-				13A961000000000000000000 /* Frameworks */,
-				14530C000000000000000000 /* Resources */,
+				2FAA12A00000000000000000 /* Sources */,
+				3F5BB9F00000000000000000 /* Frameworks */,
+				2CFAA8200000000000000000 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,62 +105,63 @@
 			);
 			name = "vues_table";
 			productName = "vues_table";
-			productReference = 34434E100000000000000000 /* vues_table.app */;
+			productReference = 303257B00000000000000000 /* vues_table.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		36EB6C600000000000000000 /* Project object */ = {
+		14CFE9300000000000000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2E46CFE00000000000000000 /* Build configuration list for PBXProject "vues_table" */;
+			buildConfigurationList = 3B4F33000000000000000000 /* Build configuration list for PBXProject "vues_table" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 30F469100000000000000000;
-			productRefGroup = 27FF3B700000000000000000 /* Products */;
+			mainGroup = 3A3989B00000000000000000;
+			productRefGroup = DD940F000000000000000000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27F917300000000000000000 /* vues_table */,
+				3CA348E00000000000000000 /* vues_table */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14530C000000000000000000 /* Resources */ = {
+		2CFAA8200000000000000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED827E000000000000000000 /* Assets.xcassets in Resources */,
-				32649E000000000000000000 /* Entitlements.plist in Resources */,
-				31D601700000000000000000 /* Info.plist in Resources */,
-				4B678B000000000000000000 /* Main.storyboard in Resources */,
+				CD2DE2000000000000000000 /* Assets.xcassets in Resources */,
+				EB8484000000000000000000 /* Entitlements.plist in Resources */,
+				284EDFB00000000000000000 /* Info.plist in Resources */,
+				F4CAF0000000000000000000 /* trash.png in Resources */,
+				D74387000000000000000000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25D056A00000000000000000 /* Sources */ = {
+		2FAA12A00000000000000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBC32300000000000000000 /* AppDelegate.m in Sources */,
-				88BE48000000000000000000 /* ViewController.m in Sources */,
+				1C5DEC000000000000000000 /* AppDelegate.m in Sources */,
+				F9B7C5000000000000000000 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		207D4EF00000000000000000 /* Debug */ = {
+		15C8CB000000000000000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		2467C6C00000000000000000 /* Release */ = {
+		40F236000000000000000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +267,7 @@
 			};
 			name = Release;
 		};
-		7A5FCC000000000000000000 /* Debug */ = {
+		24883EA00000000000000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
@@ -278,7 +282,7 @@
 			};
 			name = Debug;
 		};
-		4D5E32000000000000000000 /* Release */ = {
+		8CA33D000000000000000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
@@ -296,25 +300,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E46CFE00000000000000000 /* Build configuration list for PBXProject "vues_table" */ = {
+		3B4F33000000000000000000 /* Build configuration list for PBXProject "vues_table" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207D4EF00000000000000000 /* Debug */,
-				2467C6C00000000000000000 /* Release */,
+				15C8CB000000000000000000 /* Debug */,
+				40F236000000000000000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		27C1D0B00000000000000000 /* Build configuration list for PBXNativeTarget "vues_table" */ = {
+		21BD90400000000000000000 /* Build configuration list for PBXNativeTarget "vues_table" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A5FCC000000000000000000 /* Debug */,
-				4D5E32000000000000000000 /* Release */,
+				24883EA00000000000000000 /* Debug */,
+				8CA33D000000000000000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 36EB6C600000000000000000 /* Project object */;
+	rootObject = 14CFE9300000000000000000 /* Project object */;
 }

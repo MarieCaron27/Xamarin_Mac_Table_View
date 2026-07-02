@@ -10,10 +10,13 @@
 
 
 @interface ViewController : NSViewController {
+	NSTableColumn *_ActionColumn;
 	NSTableColumn *_DetailsColumn;
 	NSTableColumn *_ProductColumn;
 	NSTableView *_ProductTable;
 }
+
+@property (nonatomic, retain) IBOutlet NSTableColumn *ActionColumn;
 
 @property (nonatomic, retain) IBOutlet NSTableColumn *DetailsColumn;
 

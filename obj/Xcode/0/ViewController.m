@@ -9,6 +9,7 @@
 
 @implementation ViewController
 
+@synthesize ActionColumn = _ActionColumn;
 @synthesize DetailsColumn = _DetailsColumn;
 @synthesize ProductColumn = _ProductColumn;
 @synthesize ProductTable = _ProductTable;
