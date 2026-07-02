@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vues_table")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+514b3a90dc8591bf6a253d937887291d3ab76dd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c66572d9c6c468b0f96f434e52672d63197bddc")]
 [assembly: System.Reflection.AssemblyProductAttribute("vues_table")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vues_table")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

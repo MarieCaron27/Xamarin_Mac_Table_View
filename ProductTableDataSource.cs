@@ -46,12 +46,12 @@ public class ProductTableDataSource : NSTableViewDataSource
 
     public override void SortDescriptorsChanged (NSTableView tableView, NSSortDescriptor[] oldDescriptors)
     {
-        // Sort the data
+        // Sort the data => On passe ici au deuxième clique sur Product ou Details
         if (oldDescriptors.Length > 0) {
             // Update sort
             Sort (oldDescriptors [0].Key, oldDescriptors [0].Ascending);
         } else {
-            // Grab current descriptors and update sort
+            // Grab current descriptors and update sort => On passe par ici lors du premier clique sur Product ou Details
             NSSortDescriptor[] tbSort = tableView.SortDescriptors;
             Sort (tbSort[0].Key, tbSort[0].Ascending);
         }
